@@ -1,0 +1,21 @@
+    <table class="table-page">
+        <tr>
+            <th>№</th>
+            <th>Гол</th>
+            <th>Голевая передача</th>
+            <th>Минута</th>
+        </tr>
+        {% for goal in goals %}
+            <tr>
+                <td>{{ forloop.counter }}</td>
+                <td>{{ goal.player_goal.last_name }} {{ goal.player_goal.first_name }}</td>
+                {% if goal.player_assist %}
+                    <td>{{ goal.player_assist.last_name }} {{ goal.player_assist.first_name }}</td>
+                {% else %}
+                    <td> -</td>
+                {% endif %}
+                <td>{{ goal.time_goal }}</td>
+            </tr>
+        {% endfor %}
+    </table>
+

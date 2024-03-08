@@ -3,51 +3,26 @@
 {% block title %}Игра{% endblock title %}
 
 {% block content %}
-    <h1>Статисика игры {{ game }} {{ game.data|date:"d.m.Y H:i" }}</h1>
+    <h1>{{ game }}</h1>
+    <h2>{{ game.data|date:"d.m.Y H:i" }}</h2>
     <h3><a href="{% url 'gradus_team:show_team' game.home_team.slug_team %}">{{ game.home_team }}</a>:</h3>
     <h4>Состав команды {{ game.home_team }}</h4>
     <ul>
         {% for player in composition_HT.all %}
-            <li><a href="{{ player.get_absolute_url }}">{{ player }}</a></li>
+            <li><a href="{{ player.get_absolute_url }}">{{ player.last_name }} {{ player.first_name }}</a></li>
         {% endfor %}
     </ul>
-    <table>
-        <tr>
-            <th>№</th>
-            <th>Гол</th>
-            <th>Голевая передача</th>
-            <th>Минута</th>
-        </tr>
-        {% for goal in goals_HT %}
-            <tr>
-                <td>{{ forloop.counter }}</td>
-                <td>{{goal.player_goal}}</td>
-                <td>Пока хз</td>
-                <td>{{goal.time_goal}}</td>
-            </tr>
-        {% endfor %}
-    </table>
+        {% include "./includes/table_goals_assists.html" with goals=goals_HT %}
+        {% include "./includes/list_yellow_cards.html" with team=game.home_team yellow_cards=yellow_card_HT %}
+        {% include "./includes/list_red_cards.html" with team=game.home_team red_cards=red_card_HT %}
     <h3><a href="{% url 'gradus_team:show_team' game.guest_team.slug_team %}">{{ game.guest_team }}</a>:</h3>
-        <h4>Состав команды {{ game.home_team }}</h4>
+    <h4>Состав команды {{ game.guest_team }}</h4>
     <ul>
         {% for player in composition_GT.all %}
-            <li><a href="{{ player.get_absolute_url }}">{{ player }}</a></li>
+            <li><a href="{{ player.get_absolute_url }}">{{ player.last_name }} {{ player.first_name }}</a></li>
         {% endfor %}
     </ul>
-    <table>
-        <tr>
-            <th>№</th>
-            <th>Гол</th>
-            <th>Голевая передача</th>
-            <th>Минута</th>
-        </tr>
-        {% for goal in goals_GT %}
-            <tr>
-                <td>{{ forloop.counter }}</td>
-                <td>{{goal.player_goal}}</td>
-                <td>Пока хз</td>
-                <td>{{goal.time_goal}}</td>
-            </tr>
-        {% endfor %}
-    </table>
+        {% include "./includes/table_goals_assists.html" with goals=goals_GT %}
+        {% include "./includes/list_yellow_cards.html" with team=game.guest_team yellow_cards=yellow_card_GT %}
+        {% include "./includes/list_red_cards.html" with team=game.guest_team red_cards=red_card_GT %}
 {% endblock %}

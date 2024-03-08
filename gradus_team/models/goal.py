@@ -19,6 +19,8 @@ class GoalAssist(models.Model):
         MaxValueValidator(50, 'Максимальное значение 50'),
     ],
         verbose_name='Минута гола')
+    own_goal = models.BooleanField(default=False, verbose_name='Автогол')
+
 
     def __str__(self):
         return f'{self.player_goal} - {self.game_goal}  ->> {self.time_goal} Минута'
