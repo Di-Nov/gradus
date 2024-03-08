@@ -1,0 +1,18 @@
+{% extends 'gradus/base.html' %}
+
+{% block title %}{{ player }}{% endblock title %}
+
+{% block content %}
+    <h2>Игрок: {{ player }}</h2>
+    {% if player.avatar %}
+    <p ><img class="#" style="max-width: 300px" src="{{player.avatar.url}}"></p>
+    {% endif %}
+    {% if player.description %}
+        <p>Описание: {{ player.description|linebreaks }}</p>
+    {% endif %}
+    {% if player.age %}
+        <p>Возраст: {{ player.age }}</p>
+    {% endif %}
+
+{% endblock %}
+

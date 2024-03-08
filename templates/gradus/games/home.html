@@ -1,0 +1,12 @@
+{% extends 'gradus/base.html' %}
+
+{% block title %}Домашняя страница{% endblock title %}
+
+{% block content %}
+<ul>
+    {% for game in games %}
+        <li><a href="{{ game.get_absolute_url }}">{{ game }}</a></li>
+        {{ game.data|date:"d.m.Y H:i"}}
+    {% endfor %}
+</ul>
+{% endblock %}

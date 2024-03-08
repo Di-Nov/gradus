@@ -77,8 +77,8 @@ DATABASES = {
         "NAME": "gradus_db",
         "USER": "gradus",
         'PASSWORD': '123',
-        'HOST': '127.0.0.1',
-        "PORT": "5432",
+        'HOST': 'localhost',
+        "PORT": 5432,
     }
 }
 

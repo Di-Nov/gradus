@@ -1,0 +1,53 @@
+{% extends 'gradus/base.html' %}
+
+{% block title %}Игра{% endblock title %}
+
+{% block content %}
+    <h1>Статисика игры {{ game }} {{ game.data|date:"d.m.Y H:i" }}</h1>
+    <h3><a href="{% url 'gradus_team:show_team' game.home_team.slug_team %}">{{ game.home_team }}</a>:</h3>
+    <h4>Состав команды {{ game.home_team }}</h4>
+    <ul>
+        {% for player in composition_HT.all %}
+            <li><a href="{{ player.get_absolute_url }}">{{ player }}</a></li>
+        {% endfor %}
+    </ul>
+    <table>
+        <tr>
+            <th>№</th>
+            <th>Гол</th>
+            <th>Голевая передача</th>
+            <th>Минута</th>
+        </tr>
+        {% for goal in goals_HT %}
+            <tr>
+                <td>{{ forloop.counter }}</td>
+                <td>{{goal.player_goal}}</td>
+                <td>Пока хз</td>
+                <td>{{goal.time_goal}}</td>
+            </tr>
+        {% endfor %}
+    </table>
+    <h3><a href="{% url 'gradus_team:show_team' game.guest_team.slug_team %}">{{ game.guest_team }}</a>:</h3>
+        <h4>Состав команды {{ game.home_team }}</h4>
+    <ul>
+        {% for player in composition_GT.all %}
+            <li><a href="{{ player.get_absolute_url }}">{{ player }}</a></li>
+        {% endfor %}
+    </ul>
+    <table>
+        <tr>
+            <th>№</th>
+            <th>Гол</th>
+            <th>Голевая передача</th>
+            <th>Минута</th>
+        </tr>
+        {% for goal in goals_GT %}
+            <tr>
+                <td>{{ forloop.counter }}</td>
+                <td>{{goal.player_goal}}</td>
+                <td>Пока хз</td>
+                <td>{{goal.time_goal}}</td>
+            </tr>
+        {% endfor %}
+    </table>
+{% endblock %}

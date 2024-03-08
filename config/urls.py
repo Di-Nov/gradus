@@ -6,7 +6,7 @@ from config import settings
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('/', include('gradus_team.urls', namespace='gradus_team')),
+    path('', include('gradus_team.urls', namespace='gradus_team')),
 ]
 
 if settings.DEBUG:

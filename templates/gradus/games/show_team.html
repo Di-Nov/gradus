@@ -1,0 +1,13 @@
+{% extends 'gradus/base.html' %}
+
+{% block title %}{{ team }}{% endblock title %}
+
+{% block content %}
+    <h2>Информация о команде {{ team }}</h2>
+    <ul>
+    {% for player in players.all %}
+        <li><a href="{{ player.get_absolute_url }}">{{ player }}</a></li>
+    {% endfor %}
+    </ul>
+{% endblock %}
+
