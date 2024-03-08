@@ -1,8 +1,4 @@
-# [GRADUS](https://vk.com/fc_gradus "ссылка на ВК") 
-
-[//]: # (![Gradus logo]&#40;<img src="https://sun9-3.userapi.com/impf/c624018/v624018077/46f54/3S0tFVBwj9o.jpg?size=400x400&quality=96&sign=628b1261f3fad7d732586f99569c5852&type=album" width="200" height="200">&#41;)
-
-<img src="https://sun9-3.userapi.com/impf/c624018/v624018077/46f54/3S0tFVBwj9o.jpg?size=400x400&quality=96&sign=628b1261f3fad7d732586f99569c5852&type=album" width="200" height="200">
+# [GRADUS](https://vk.com/fc_gradus "ссылка на ВК")  <img src="https://sun9-3.userapi.com/impf/c624018/v624018077/46f54/3S0tFVBwj9o.jpg?size=400x400&quality=96&sign=628b1261f3fad7d732586f99569c5852&type=album" style="object-fit: cover"  width="80" height="38">
 
 >Сайт команды МФК Градус, тут будут расписаны матчи игроки, обзоры и календарь игр, статичтика, истории и многое другое... 
 ___
