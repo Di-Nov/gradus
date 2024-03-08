@@ -6,15 +6,22 @@ from .models.goal import GoalAssist
 from .models.player import Player
 from .models.team import Team
 from .models.team_composition import TeamComposition
+from .models.yellow_card import YellowCard
 
-admin.site.register(Game)
+@admin.register(Game)
+class GameAdmin(admin.ModelAdmin):
+    list_display = ['home_team', 'goals_home_team', 'guest_team', 'goals_guest_team', 'data']
+    list_display_links = ['home_team', ]
+    exclude = ['goals_home_team', 'goals_guest_team']
+    list_per_page = 20
+    save_on_top = True
 
 
 @admin.register(Player)
 class PlayerAdmin(admin.ModelAdmin):
     list_display = ['player_FIO', 'team', 'age', 'date_birth', 'role', 'status', ]
     list_editable = ['team']
-    prepopulated_fields = {"slug": ["last_name"]}
+    prepopulated_fields = {"slug": ["last_name", 'first_name']}
     list_display_links = ['player_FIO', ]
     list_filter = ['team', 'status', 'role']
     list_per_page = 10
@@ -80,7 +87,17 @@ class TeamCompositionAdmin(admin.ModelAdmin):
 class GoalAssistAdmin(admin.ModelAdmin):
     list_display = ['player_goal', 'player_assist', 'game_goal', 'time_goal']
     list_display_links = ['player_goal', ]
+    list_filter = ['team_goal']
     exclude = ['team_goal']
     list_per_page = 20
     save_on_top = True
     autocomplete_fields = ['player_goal', 'player_assist']
+
+@admin.register(YellowCard)
+class GoalAssistAdmin(admin.ModelAdmin):
+    list_display = ['player', 'game', 'team', 'time_yellow_card']
+    list_display_links = ['player', ]
+    exclude = ['team']
+    list_per_page = 20
+    save_on_top = True
+    autocomplete_fields = ['player', ]
