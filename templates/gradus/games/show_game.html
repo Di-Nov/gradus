@@ -12,79 +12,17 @@
             <li><a href="{{ player.get_absolute_url }}">{{ player.last_name }} {{ player.first_name }}</a></li>
         {% endfor %}
     </ul>
-    <table>
-        <tr>
-            <th>№</th>
-            <th>Гол</th>
-            <th>Голевая передача</th>
-            <th>Минута</th>
-        </tr>
-        {% for goal in goals_HT %}
-            <tr>
-                <td>{{ forloop.counter }}</td>
-                <td>{{ goal.player_goal.last_name }} {{ goal.player_goal.first_name }}</td>
-                {% if goal.player_assist %}
-                    <td>{{ goal.player_assist.last_name }} {{ goal.player_assist.first_name }}</td>
-                {% else %}
-                    <td> -</td>
-                {% endif %}
-                <td>{{ goal.time_goal }}</td>
-            </tr>
-        {% endfor %}
-    </table>
-    {% if yellow_card_HT %}
-        <h4>Желтые карточки {{ game.home_team }}:</h4>
-        <ul>
-            {% for yellow_card in yellow_card_HT %}
-                <li>{{ yellow_card.player.last_name }} {{ yellow_card.player.first_name }}
-                    - {{ yellow_card.time_yellow_card }} минута
-                </li>
-            {% endfor %}
-        </ul>
-    {% endif %}
-    {% if red_card_HT %}
-        <h4>Красные карточки {{ game.home_team }}:</h4>
-        <ul>
-            {% for red_card in red_card_HT %}
-                <li>{{ red_card.player.last_name }} {{ red_card.player.first_name }}
-                    - {{ red_card.time_yellow_card }} минута
-                </li>
-            {% endfor %}
-        </ul>
-    {% endif %}
-
-
-
-
+        {% include "./includes/table_goals_assists.html" with goals=goals_HT %}
+        {% include "./includes/list_yellow_cards.html" with team=game.home_team yellow_cards=yellow_card_HT %}
+        {% include "./includes/list_red_cards.html" with team=game.home_team red_cards=red_card_HT %}
     <h3><a href="{% url 'gradus_team:show_team' game.guest_team.slug_team %}">{{ game.guest_team }}</a>:</h3>
-    <h4>Состав команды {{ game.home_team }}</h4>
+    <h4>Состав команды {{ game.guest_team }}</h4>
     <ul>
         {% for player in composition_GT.all %}
             <li><a href="{{ player.get_absolute_url }}">{{ player.last_name }} {{ player.first_name }}</a></li>
         {% endfor %}
     </ul>
-    <table>
-        <tr>
-            <th>№</th>
-            <th>Гол</th>
-            <th>Голевая передача</th>
-            <th>Минута</th>
-        </tr>
-        {% for goal in goals_GT %}
-            <tr>
-                <td>{{ forloop.counter }}</td>
-                {% if goal.own_goal %}
-                    <td>{{ goal.player_goal.last_name }} {{ goal.player_goal.first_name }} (автогол)</td>
-                {% else %}
-                   <td>{{ goal.player_goal.last_name }} {{ goal.player_goal.first_name }}</td>
-                {% endif %}
-                {% if goal.player_assist %}
-                    <td>{{ goal.player_assist.last_name }} {{ goal.player_assist.first_name }}</td>
-                {% else %}
-                   <td>-</td>
-                {% endif %}
-                <td>{{ goal.time_goal }}</td>
-            </tr>
-        {% endfor %}
-    </table>
+        {% include "./includes/table_goals_assists.html" with goals=goals_GT %}
+        {% include "./includes/list_yellow_cards.html" with team=game.guest_team yellow_cards=yellow_card_GT %}
+        {% include "./includes/list_red_cards.html" with team=game.guest_team red_cards=red_card_GT %}
 {% endblock %}

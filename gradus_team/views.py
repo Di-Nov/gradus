@@ -5,6 +5,7 @@ from django.views.generic import ListView, DetailView
 from gradus_team.models.game import Game
 from gradus_team.models.goal import GoalAssist
 from gradus_team.models.player import Player
+from gradus_team.models.red_card import RedCard
 from gradus_team.models.team import Team
 from gradus_team.models.team_composition import TeamComposition
 from gradus_team.models.yellow_card import YellowCard
@@ -36,7 +37,9 @@ class ShowGame(DetailView):
         context['composition_GT'] = TeamComposition.objects.get(team=context['game'].guest_team,
                                                                 game=context['game']).composition
         context['yellow_card_HT'] = YellowCard.objects.filter(team=context['game'].home_team, game=context['game'])
-        context['red_card_HT'] = YellowCard.objects.filter(team=context['game'].home_team, game=context['game'])
+        context['red_card_HT'] = RedCard.objects.filter(team=context['game'].home_team, game=context['game'])
+        context['yellow_card_GT'] = YellowCard.objects.filter(team=context['game'].guest_team, game=context['game'])
+        context['red_card_GT'] = RedCard.objects.filter(team=context['game'].guest_team, game=context['game'])
         return context
 
 

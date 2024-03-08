@@ -1,0 +1,10 @@
+{% if red_cards %}
+    <h4>Красные карточки {{ team }}:</h4>
+    <ul>
+        {% for red_card in red_cards %}
+            <li>{{ red_card.player.last_name }} {{ red_card.player.first_name }}
+                - {{ red_card.time_red_card }} минута
+            </li>
+        {% endfor %}
+    </ul>
+{% endif %}
