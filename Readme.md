@@ -6,31 +6,32 @@ ___
 ## Содержание
 * [Технологии](#teh)
 * [Использование](#use)
-* [Требования](#t)
+* [Установка](#t)
 * [Deploy и CI/CD](#deploy)
 * [Contributing](#contr)
 * [Команда проекта](#team)
 ___
 <h3 id="teh">Технологии</h3>
-asgiref
-Django 5.0.2
-pillow
-psycopg2
-psycopg2-binary
-sqlparse
-typing_extensions
-tzdata
+* asgiref
+* Django 5.0.2
+* pillow
+* psycopg2
+* psycopg2-binary
+* sqlparse
+* typing_extensions
+* tzdata
 ___
 <h3 id="use">Использование</h3>
 Используйте сайт только по назначению, нельзя показывать материалы третьим лицам.
 ___
-<h3 id="t">Требования</h3>
+<h3 id="t">Установка</h3>
 * Создайте виртуальную среду
 * Для установки и запуска проекта, необходим Python 3.11
 * Установите проект с репозитория https://github.com/Di-Nov/gradus
 * Установите зависимости из requirements.txt (pip install -r requirements.txt)
-* Наверно надо как-то БД передать... 
-* Вроде все...
+* Создайте БД, выполните миграции
+* Загрузите данные в новую БД (python manage.py loaddata db.json)
+* Проверяем работоспособность сайта.
 
 ___
 <h3 id="deploy">Deploy и CI/CD</h3>

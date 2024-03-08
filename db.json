@@ -1,0 +1,3362 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2024-03-05T11:18:52.657Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "1",
+    "object_repr": "РевзинМихаил",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2024-03-05T11:52:01.851Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "2",
+    "object_repr": "НовожиловДмитрий",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2024-03-05T12:00:19.106Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "2",
+    "object_repr": "НовожиловДмитрий",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2024-03-05T12:26:30.169Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "Градус",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2024-03-05T12:26:58.994Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "2",
+    "object_repr": "Новожилов Дмитрий",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041a\\u043e\\u043c\\u0430\\u043d\\u0434\\u0430\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2024-03-05T12:27:06.166Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "1",
+    "object_repr": "Ревзин Михаил",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041a\\u043e\\u043c\\u0430\\u043d\\u0434\\u0430\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2024-03-05T14:53:13.461Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "4",
+    "object_repr": "Движков Роман",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2024-03-05T14:53:40.146Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "4",
+    "object_repr": "Движков Роман",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0420\\u043e\\u043b\\u044c\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2024-03-05T14:54:01.113Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "4",
+    "object_repr": "Движков Роман",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u043e\\u0442\\u043e\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2024-03-05T14:56:29.147Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "5",
+    "object_repr": "Мамонов Алексей",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2024-03-05T14:58:10.058Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "6",
+    "object_repr": "Михайлов Василий",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2024-03-05T14:58:14.506Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "6",
+    "object_repr": "Михайлов Василий",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041a\\u043e\\u043c\\u0430\\u043d\\u0434\\u0430\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2024-03-05T14:59:52.744Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "7",
+    "object_repr": "Третьяков Антон",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2024-03-05T15:02:57.224Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "7",
+    "object_repr": "Третьяков Антон",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041a\\u043e\\u043c\\u0430\\u043d\\u0434\\u0430\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2024-03-05T15:03:36.474Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "2",
+    "object_repr": "Карабах",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2024-03-05T15:04:20.389Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "8",
+    "object_repr": "Алиев В",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2024-03-05T15:05:41.987Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "9",
+    "object_repr": "Алиев М",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2024-03-05T15:05:52.702Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "8",
+    "object_repr": "Алиев В",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0421\\u043b\\u0430\\u0433\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2024-03-05T15:07:01.525Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "10",
+    "object_repr": "Алиев-x Х",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2024-03-05T15:07:09.386Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "10",
+    "object_repr": "Алиев-x Х",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041a\\u043e\\u043c\\u0430\\u043d\\u0434\\u0430\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2024-03-05T15:07:09.388Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "9",
+    "object_repr": "Алиев М",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041a\\u043e\\u043c\\u0430\\u043d\\u0434\\u0430\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2024-03-05T15:07:09.389Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "8",
+    "object_repr": "Алиев В",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041a\\u043e\\u043c\\u0430\\u043d\\u0434\\u0430\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2024-03-05T15:07:38.061Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "11",
+    "object_repr": "Аметов А",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2024-03-05T15:08:04.058Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "10",
+    "object_repr": "Алиев Х",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u0430\\u043c\\u0438\\u043b\\u0438\\u044f\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 25,
+  "fields": {
+    "action_time": "2024-03-05T15:09:02.907Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "12",
+    "object_repr": "Бакалец М",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 26,
+  "fields": {
+    "action_time": "2024-03-05T15:11:39.740Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Game object (1)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 27,
+  "fields": {
+    "action_time": "2024-03-05T15:30:14.891Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "1",
+    "object_repr": "Goal object (1)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 28,
+  "fields": {
+    "action_time": "2024-03-05T15:33:03.558Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "2",
+    "object_repr": "Михайлов Василий - Градус 2:0 Карабах  ->> 14 Минута",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 29,
+  "fields": {
+    "action_time": "2024-03-05T15:33:18.431Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "3",
+    "object_repr": "Движков Роман - Градус 3:0 Карабах  ->> 20 Минута",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 30,
+  "fields": {
+    "action_time": "2024-03-05T15:33:33.520Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "4",
+    "object_repr": "Ревзин Михаил - Градус 4:0 Карабах  ->> 23 Минута",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 31,
+  "fields": {
+    "action_time": "2024-03-05T15:33:50.014Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "5",
+    "object_repr": "Движков Роман - Градус 5:0 Карабах  ->> 31 Минута",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 32,
+  "fields": {
+    "action_time": "2024-03-05T15:33:57.265Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "6",
+    "object_repr": "Ревзин Михаил - Градус 6:0 Карабах  ->> 37 Минута",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 33,
+  "fields": {
+    "action_time": "2024-03-05T15:34:08.915Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "7",
+    "object_repr": "Михайлов Василий - Градус 7:0 Карабах  ->> 37 Минута",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 34,
+  "fields": {
+    "action_time": "2024-03-05T15:34:18.321Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "8",
+    "object_repr": "Михайлов Василий - Градус 8:0 Карабах  ->> 38 Минута",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 35,
+  "fields": {
+    "action_time": "2024-03-05T15:34:29.547Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "9",
+    "object_repr": "Третьяков Антон - Градус 9:0 Карабах  ->> 40 Минута",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 36,
+  "fields": {
+    "action_time": "2024-03-05T15:34:43.915Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "10",
+    "object_repr": "Мамонов Алексей - Градус 10:0 Карабах  ->> 43 Минута",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 37,
+  "fields": {
+    "action_time": "2024-03-05T15:35:00.011Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "11",
+    "object_repr": "Михайлов Василий - Градус 11:0 Карабах  ->> 47 Минута",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 38,
+  "fields": {
+    "action_time": "2024-03-05T15:35:12.622Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "12",
+    "object_repr": "Алиев М - Градус 11:1 Карабах  ->> 3 Минута",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 39,
+  "fields": {
+    "action_time": "2024-03-05T15:35:19.574Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "13",
+    "object_repr": "Алиев М - Градус 11:2 Карабах  ->> 5 Минута",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 40,
+  "fields": {
+    "action_time": "2024-03-05T15:35:46.829Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "14",
+    "object_repr": "Бакалец М - Градус 11:3 Карабах  ->> 18 Минута",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 41,
+  "fields": {
+    "action_time": "2024-03-05T15:36:03.165Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "15",
+    "object_repr": "Алиев М - Градус 11:4 Карабах  ->> 19 Минута",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 42,
+  "fields": {
+    "action_time": "2024-03-05T15:36:16.878Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "16",
+    "object_repr": "Алиев Х - Градус 11:5 Карабах  ->> 27 Минута",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 43,
+  "fields": {
+    "action_time": "2024-03-05T15:36:23.292Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "17",
+    "object_repr": "Алиев М - Градус 11:6 Карабах  ->> 29 Минута",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 44,
+  "fields": {
+    "action_time": "2024-03-05T15:36:37.235Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "18",
+    "object_repr": "Алиев М - Градус 11:7 Карабах  ->> 42 Минута",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 45,
+  "fields": {
+    "action_time": "2024-03-05T15:36:50.620Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "19",
+    "object_repr": "Аметов А - Градус 11:8 Карабах  ->> 45 Минута",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 46,
+  "fields": {
+    "action_time": "2024-03-05T15:37:14.821Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "20",
+    "object_repr": "Алиев М - Градус 11:9 Карабах  ->> 46 Минута",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 47,
+  "fields": {
+    "action_time": "2024-03-05T15:40:12.056Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "1",
+    "object_repr": "Assist object (1)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 48,
+  "fields": {
+    "action_time": "2024-03-05T15:40:23.361Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "2",
+    "object_repr": "Assist object (2)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 49,
+  "fields": {
+    "action_time": "2024-03-05T15:40:42.371Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "3",
+    "object_repr": "Assist object (3)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 50,
+  "fields": {
+    "action_time": "2024-03-05T15:40:52.151Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "4",
+    "object_repr": "Assist object (4)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 51,
+  "fields": {
+    "action_time": "2024-03-05T15:41:01.519Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "5",
+    "object_repr": "Assist object (5)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 52,
+  "fields": {
+    "action_time": "2024-03-05T15:41:12.201Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "6",
+    "object_repr": "Assist object (6)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 53,
+  "fields": {
+    "action_time": "2024-03-05T15:41:23.665Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "7",
+    "object_repr": "Assist object (7)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 54,
+  "fields": {
+    "action_time": "2024-03-05T15:41:36.686Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "8",
+    "object_repr": "Assist object (8)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 55,
+  "fields": {
+    "action_time": "2024-03-05T15:41:46.096Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "9",
+    "object_repr": "Assist object (9)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 56,
+  "fields": {
+    "action_time": "2024-03-05T15:41:58.100Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "10",
+    "object_repr": "Assist object (10)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 57,
+  "fields": {
+    "action_time": "2024-03-05T15:42:12.254Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "11",
+    "object_repr": "Assist object (11)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 58,
+  "fields": {
+    "action_time": "2024-03-05T15:42:22.500Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "12",
+    "object_repr": "Assist object (12)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 59,
+  "fields": {
+    "action_time": "2024-03-05T15:42:33.058Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "13",
+    "object_repr": "Assist object (13)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 60,
+  "fields": {
+    "action_time": "2024-03-05T15:42:53.217Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "14",
+    "object_repr": "Assist object (14)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 61,
+  "fields": {
+    "action_time": "2024-03-05T15:43:02.749Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "15",
+    "object_repr": "Assist object (15)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 62,
+  "fields": {
+    "action_time": "2024-03-05T15:45:02.583Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "TeamComposition object (1)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 63,
+  "fields": {
+    "action_time": "2024-03-05T15:45:09.520Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "TeamComposition object (1)",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 64,
+  "fields": {
+    "action_time": "2024-03-05T15:49:47.293Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "TeamComposition object (1)",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 65,
+  "fields": {
+    "action_time": "2024-03-05T15:50:00.570Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "2",
+    "object_repr": "TeamComposition object (2)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 66,
+  "fields": {
+    "action_time": "2024-03-05T17:49:46.612Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "7",
+    "object_repr": "Третьяков Антон",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u043e\\u0442\\u043e\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 67,
+  "fields": {
+    "action_time": "2024-03-07T18:29:41.498Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "1",
+    "object_repr": "Третьяков Антон - Градус 1:0 Карабах  ->> 12 Минута",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 68,
+  "fields": {
+    "action_time": "2024-03-07T18:29:57.206Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "2",
+    "object_repr": "Михайлов Василий - Градус 2:0 Карабах  ->> 14 Минута",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 69,
+  "fields": {
+    "action_time": "2024-03-07T18:30:18.124Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "3",
+    "object_repr": "Движков Роман - Градус 3:0 Карабах  ->> 20 Минута",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 70,
+  "fields": {
+    "action_time": "2024-03-07T18:30:59.663Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "4",
+    "object_repr": "Ревзин Михаил - Градус 4:0 Карабах  ->> 23 Минута",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 71,
+  "fields": {
+    "action_time": "2024-03-07T18:31:21.372Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "5",
+    "object_repr": "Движков Роман - Градус 5:0 Карабах  ->> 31 Минута",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 72,
+  "fields": {
+    "action_time": "2024-03-07T18:31:38.028Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "6",
+    "object_repr": "Ревзин Михаил - Градус 6:0 Карабах  ->> 37 Минута",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 73,
+  "fields": {
+    "action_time": "2024-03-07T18:31:56.030Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "7",
+    "object_repr": "Михайлов Василий - Градус 7:0 Карабах  ->> 38 Минута",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 74,
+  "fields": {
+    "action_time": "2024-03-07T18:32:05.529Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "8",
+    "object_repr": "Михайлов Василий - Градус 8:0 Карабах  ->> 40 Минута",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 75,
+  "fields": {
+    "action_time": "2024-03-07T18:32:20.458Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "8",
+    "object_repr": "Михайлов Василий - Градус 8:0 Карабах  ->> 39 Минута",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041c\\u0438\\u043d\\u0443\\u0442\\u0430 \\u0433\\u043e\\u043b\\u0430\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 76,
+  "fields": {
+    "action_time": "2024-03-07T18:32:43.902Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "9",
+    "object_repr": "Третьяков Антон - Градус 9:0 Карабах  ->> 40 Минута",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 77,
+  "fields": {
+    "action_time": "2024-03-07T18:33:04.786Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "10",
+    "object_repr": "Мамонов Алексей - Градус 10:0 Карабах  ->> 43 Минута",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 78,
+  "fields": {
+    "action_time": "2024-03-07T18:33:28.127Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "11",
+    "object_repr": "Михайлов Василий - Градус 11:0 Карабах  ->> 47 Минута",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 79,
+  "fields": {
+    "action_time": "2024-03-07T18:33:46.491Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "12",
+    "object_repr": "Алиев М - Градус 11:1 Карабах  ->> 3 Минута",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 80,
+  "fields": {
+    "action_time": "2024-03-07T18:34:02.859Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "13",
+    "object_repr": "Алиев М - Градус 11:2 Карабах  ->> 5 Минута",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 81,
+  "fields": {
+    "action_time": "2024-03-07T18:34:17.083Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "14",
+    "object_repr": "Бакалец М - Градус 11:3 Карабах  ->> 18 Минута",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 82,
+  "fields": {
+    "action_time": "2024-03-07T18:34:28.043Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "15",
+    "object_repr": "Алиев М - Градус 11:4 Карабах  ->> 19 Минута",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 83,
+  "fields": {
+    "action_time": "2024-03-07T18:34:44.949Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "16",
+    "object_repr": "Алиев М - Градус 11:5 Карабах  ->> 27 Минута",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 84,
+  "fields": {
+    "action_time": "2024-03-07T18:35:10.625Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "17",
+    "object_repr": "Алиев М - Градус 11:6 Карабах  ->> 29 Минута",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 85,
+  "fields": {
+    "action_time": "2024-03-07T18:35:18.039Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "16",
+    "object_repr": "Алиев Х - Градус 11:6 Карабах  ->> 27 Минута",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0410\\u0432\\u0442\\u043e\\u0440 \\u043c\\u044f\\u0447\\u0430\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 86,
+  "fields": {
+    "action_time": "2024-03-07T18:35:34.863Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "18",
+    "object_repr": "Алиев М - Градус 11:7 Карабах  ->> 42 Минута",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 87,
+  "fields": {
+    "action_time": "2024-03-07T18:36:00.779Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "19",
+    "object_repr": "Аметов А - Градус 11:8 Карабах  ->> 45 Минута",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 88,
+  "fields": {
+    "action_time": "2024-03-07T18:36:23.738Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "20",
+    "object_repr": "Алиев М - Градус 11:9 Карабах  ->> 46 Минута",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 89,
+  "fields": {
+    "action_time": "2024-03-08T12:23:03.456Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "3",
+    "object_repr": "Спайс Бойз",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 90,
+  "fields": {
+    "action_time": "2024-03-08T12:23:56.883Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Спайс Бойз 0:0 Градус",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 91,
+  "fields": {
+    "action_time": "2024-03-08T12:28:23.567Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "13",
+    "object_repr": "Быстров Сергей (Градус)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 92,
+  "fields": {
+    "action_time": "2024-03-08T12:35:23.513Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "13",
+    "object_repr": "Быстров Сергей (Градус)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u043e\\u0442\\u043e\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 93,
+  "fields": {
+    "action_time": "2024-03-08T12:42:45.122Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "14",
+    "object_repr": "Лошкарев Артем (Градус)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 94,
+  "fields": {
+    "action_time": "2024-03-08T12:43:00.959Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "14",
+    "object_repr": "Лошкарев Артем (Карабах)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041a\\u043e\\u043c\\u0430\\u043d\\u0434\\u0430\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 95,
+  "fields": {
+    "action_time": "2024-03-08T12:43:12.583Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "14",
+    "object_repr": "Лошкарев Артем (Градус)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041a\\u043e\\u043c\\u0430\\u043d\\u0434\\u0430\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 96,
+  "fields": {
+    "action_time": "2024-03-08T12:49:25.826Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "15",
+    "object_repr": "Пономарев Владимир (Градус)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 97,
+  "fields": {
+    "action_time": "2024-03-08T12:50:28.024Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "16",
+    "object_repr": "Андреев Константин (Спайс Бойз)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 98,
+  "fields": {
+    "action_time": "2024-03-08T12:51:00.281Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "17",
+    "object_repr": "Герасимов Андрей (Спайс Бойз)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 99,
+  "fields": {
+    "action_time": "2024-03-08T12:51:27.239Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "18",
+    "object_repr": "Зеленков Роман (None)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 100,
+  "fields": {
+    "action_time": "2024-03-08T12:51:56.997Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "19",
+    "object_repr": "Осипов Антон (Спайс Бойз)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 101,
+  "fields": {
+    "action_time": "2024-03-08T12:52:21.355Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "20",
+    "object_repr": "Русаков Максим (Спайс Бойз)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 102,
+  "fields": {
+    "action_time": "2024-03-08T12:52:44.929Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "21",
+    "object_repr": "Салов Антон (Спайс Бойз)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 103,
+  "fields": {
+    "action_time": "2024-03-08T12:53:16.107Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "22",
+    "object_repr": "Шалыгин Андрей (Спайс Бойз)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 104,
+  "fields": {
+    "action_time": "2024-03-08T12:54:08.101Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "18",
+    "object_repr": "Зеленков Роман (Спайс Бойз)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041a\\u043e\\u043c\\u0430\\u043d\\u0434\\u0430\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 105,
+  "fields": {
+    "action_time": "2024-03-08T12:56:02.108Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "3",
+    "object_repr": "TeamComposition object (3)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 106,
+  "fields": {
+    "action_time": "2024-03-08T12:56:37.482Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "4",
+    "object_repr": "TeamComposition object (4)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 107,
+  "fields": {
+    "action_time": "2024-03-08T12:57:05.854Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "21",
+    "object_repr": "Андреев Константин (Спайс Бойз) - Спайс Бойз 1:0 Градус  ->> 3 Минута",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 108,
+  "fields": {
+    "action_time": "2024-03-08T12:57:21.720Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "22",
+    "object_repr": "Герасимов Андрей (Спайс Бойз) - Спайс Бойз 2:0 Градус  ->> 19 Минута",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 109,
+  "fields": {
+    "action_time": "2024-03-08T12:57:42.130Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "23",
+    "object_repr": "Шалыгин Андрей (Спайс Бойз) - Спайс Бойз 3:0 Градус  ->> 20 Минута",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 110,
+  "fields": {
+    "action_time": "2024-03-08T12:58:24.564Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "24",
+    "object_repr": "Шалыгин Андрей (Спайс Бойз) - Спайс Бойз 4:0 Градус  ->> 27 Минута",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 111,
+  "fields": {
+    "action_time": "2024-03-08T12:58:45.239Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "25",
+    "object_repr": "Осипов Антон (Спайс Бойз) - Спайс Бойз 5:0 Градус  ->> 28 Минута",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 112,
+  "fields": {
+    "action_time": "2024-03-08T12:58:59.585Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "26",
+    "object_repr": "Русаков Максим (Спайс Бойз) - Спайс Бойз 6:0 Градус  ->> 45 Минута",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 113,
+  "fields": {
+    "action_time": "2024-03-08T12:59:18.852Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "27",
+    "object_repr": "Андреев Константин (Спайс Бойз) - Спайс Бойз 7:0 Градус  ->> 48 Минута",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 114,
+  "fields": {
+    "action_time": "2024-03-08T12:59:42.248Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "28",
+    "object_repr": "Шалыгин Андрей (Спайс Бойз) - Спайс Бойз 8:0 Градус  ->> 50 Минута",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 115,
+  "fields": {
+    "action_time": "2024-03-08T13:00:04.567Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "29",
+    "object_repr": "Лошкарев Артем (Градус) - Спайс Бойз 8:1 Градус  ->> 30 Минута",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 116,
+  "fields": {
+    "action_time": "2024-03-08T13:00:23.338Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "30",
+    "object_repr": "Движков Роман (Градус) - Спайс Бойз 8:2 Градус  ->> 39 Минута",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 117,
+  "fields": {
+    "action_time": "2024-03-08T13:01:13.146Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "31",
+    "object_repr": "Мамонов Алексей (Градус) - Спайс Бойз 8:3 Градус  ->> 46 Минута",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 118,
+  "fields": {
+    "action_time": "2024-03-08T13:20:02.248Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Градус 9:11 Карабах",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 119,
+  "fields": {
+    "action_time": "2024-03-08T13:20:13.401Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Спайс Бойз 3:8 Градус",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 120,
+  "fields": {
+    "action_time": "2024-03-08T13:20:52.768Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "32",
+    "object_repr": "Осипов Антон (Спайс Бойз) - Спайс Бойз 3:8 Градус  ->> 42 Минута",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 121,
+  "fields": {
+    "action_time": "2024-03-08T13:21:12.632Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Спайс Бойз 4:8 Градус",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 122,
+  "fields": {
+    "action_time": "2024-03-08T13:22:14.871Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Спайс Бойз 8:4 Градус",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 123,
+  "fields": {
+    "action_time": "2024-03-08T13:22:18.299Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Градус 11:9 Карабах",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 124,
+  "fields": {
+    "action_time": "2024-03-08T13:47:05.937Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "1",
+    "object_repr": "YellowCard object (1)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 125,
+  "fields": {
+    "action_time": "2024-03-08T13:47:20.060Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "2",
+    "object_repr": "YellowCard object (2)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 126,
+  "fields": {
+    "action_time": "2024-03-08T13:50:49.509Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "1",
+    "object_repr": "Ревзин Михаил (Градус)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0411\\u0438\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 127,
+  "fields": {
+    "action_time": "2024-03-08T13:54:23.013Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "1",
+    "object_repr": "Ревзин Михаил (Градус)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0411\\u0438\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\"]}}]"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 4,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 4,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 4,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 4,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 5,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 5,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 5,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 5,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 6,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 6,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 6,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 6,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add game",
+    "content_type": 7,
+    "codename": "add_game"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change game",
+    "content_type": 7,
+    "codename": "change_game"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete game",
+    "content_type": 7,
+    "codename": "delete_game"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view game",
+    "content_type": 7,
+    "codename": "view_game"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add team composition",
+    "content_type": 8,
+    "codename": "add_teamcomposition"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change team composition",
+    "content_type": 8,
+    "codename": "change_teamcomposition"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete team composition",
+    "content_type": 8,
+    "codename": "delete_teamcomposition"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view team composition",
+    "content_type": 8,
+    "codename": "view_teamcomposition"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add team",
+    "content_type": 9,
+    "codename": "add_team"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change team",
+    "content_type": 9,
+    "codename": "change_team"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete team",
+    "content_type": 9,
+    "codename": "delete_team"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view team",
+    "content_type": 9,
+    "codename": "view_team"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add Игрок",
+    "content_type": 10,
+    "codename": "add_player"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change Игрок",
+    "content_type": 10,
+    "codename": "change_player"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete Игрок",
+    "content_type": 10,
+    "codename": "delete_player"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view Игрок",
+    "content_type": 10,
+    "codename": "view_player"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 41,
+  "fields": {
+    "name": "Can add goal",
+    "content_type": 11,
+    "codename": "add_goal"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 42,
+  "fields": {
+    "name": "Can change goal",
+    "content_type": 11,
+    "codename": "change_goal"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 43,
+  "fields": {
+    "name": "Can delete goal",
+    "content_type": 11,
+    "codename": "delete_goal"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 44,
+  "fields": {
+    "name": "Can view goal",
+    "content_type": 11,
+    "codename": "view_goal"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 45,
+  "fields": {
+    "name": "Can add assist",
+    "content_type": 12,
+    "codename": "add_assist"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 46,
+  "fields": {
+    "name": "Can change assist",
+    "content_type": 12,
+    "codename": "change_assist"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 47,
+  "fields": {
+    "name": "Can delete assist",
+    "content_type": 12,
+    "codename": "delete_assist"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 48,
+  "fields": {
+    "name": "Can view assist",
+    "content_type": 12,
+    "codename": "view_assist"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 49,
+  "fields": {
+    "name": "Can add yellow card",
+    "content_type": 13,
+    "codename": "add_yellowcard"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 50,
+  "fields": {
+    "name": "Can change yellow card",
+    "content_type": 13,
+    "codename": "change_yellowcard"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 51,
+  "fields": {
+    "name": "Can delete yellow card",
+    "content_type": 13,
+    "codename": "delete_yellowcard"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 52,
+  "fields": {
+    "name": "Can view yellow card",
+    "content_type": 13,
+    "codename": "view_yellowcard"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 53,
+  "fields": {
+    "name": "Can add red card",
+    "content_type": 14,
+    "codename": "add_redcard"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 54,
+  "fields": {
+    "name": "Can change red card",
+    "content_type": 14,
+    "codename": "change_redcard"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 55,
+  "fields": {
+    "name": "Can delete red card",
+    "content_type": 14,
+    "codename": "delete_redcard"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 56,
+  "fields": {
+    "name": "Can view red card",
+    "content_type": 14,
+    "codename": "view_redcard"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 57,
+  "fields": {
+    "name": "Can add goal assist",
+    "content_type": 15,
+    "codename": "add_goalassist"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 58,
+  "fields": {
+    "name": "Can change goal assist",
+    "content_type": 15,
+    "codename": "change_goalassist"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 59,
+  "fields": {
+    "name": "Can delete goal assist",
+    "content_type": 15,
+    "codename": "delete_goalassist"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 60,
+  "fields": {
+    "name": "Can view goal assist",
+    "content_type": 15,
+    "codename": "view_goalassist"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$720000$GX9Nik2sC5a8pM9uUtvYTa$WR2xQpr3/cyqBQklVXquIeFR4HXoXCWStfJuiHgPfhc=",
+    "last_login": "2024-03-05T17:49:28.278Z",
+    "is_superuser": true,
+    "username": "dima",
+    "first_name": "",
+    "last_name": "",
+    "email": "pieero47@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2024-03-05T11:00:51.272Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "gradus_team",
+    "model": "game"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "gradus_team",
+    "model": "teamcomposition"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "gradus_team",
+    "model": "team"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "gradus_team",
+    "model": "player"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 11,
+  "fields": {
+    "app_label": "gradus_team",
+    "model": "goal"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 12,
+  "fields": {
+    "app_label": "gradus_team",
+    "model": "assist"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 13,
+  "fields": {
+    "app_label": "gradus_team",
+    "model": "yellowcard"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 14,
+  "fields": {
+    "app_label": "gradus_team",
+    "model": "redcard"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 15,
+  "fields": {
+    "app_label": "gradus_team",
+    "model": "goalassist"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "1t1wox9cshhxum8tuquuw8b3famlhllw",
+  "fields": {
+    "session_data": ".eJxVjMEOwiAQRP-FsyFL2wXr0bvfQHaBlaopSWlPxn-XJj3oZQ7z3sxbedrW7LeaFj9FdVFGnX47pvBM8w7ig-Z70aHM6zKx3hV90KpvJabX9XD_DjLV3NYBRDBZcA4iMZIVZGeIesOAo-twoKZ0eB4FIHCSRGh7lhZhIMPq8wX14zh3:1rhVpu:iqCRYHTlE0SaRuKZbgnHULa7HB6gNoM7xJArejDHRwk",
+    "expire_date": "2024-03-19T14:32:06.159Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "extrnfc2xj3ozs2ojdmb3c2pq1nrprmr",
+  "fields": {
+    "session_data": ".eJxVjMEOwiAQRP-FsyFL2wXr0bvfQHaBlaopSWlPxn-XJj3oZQ7z3sxbedrW7LeaFj9FdVFGnX47pvBM8w7ig-Z70aHM6zKx3hV90KpvJabX9XD_DjLV3NYBRDBZcA4iMZIVZGeIesOAo-twoKZ0eB4FIHCSRGh7lhZhIMPq8wX14zh3:1rhSXW:85rFDSsfrFLBc42dvycq-bIXZgBDV9DwNfDYJjBtdAM",
+    "expire_date": "2024-03-19T11:00:54.353Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "rwfx711kamy3gr5wsx5c69o1i41fbl30",
+  "fields": {
+    "session_data": ".eJxVjMEOwiAQRP-FsyFL2wXr0bvfQHaBlaopSWlPxn-XJj3oZQ7z3sxbedrW7LeaFj9FdVFGnX47pvBM8w7ig-Z70aHM6zKx3hV90KpvJabX9XD_DjLV3NYBRDBZcA4iMZIVZGeIesOAo-twoKZ0eB4FIHCSRGh7lhZhIMPq8wX14zh3:1rhYuu:ymaudLvW_eucwe4I2jjRBvAzIauRwTkn7J2NZkrkC0E",
+    "expire_date": "2024-03-19T17:49:28.279Z"
+  }
+},
+{
+  "model": "gradus_team.game",
+  "pk": 1,
+  "fields": {
+    "home_team": 1,
+    "goals_home_team": 11,
+    "guest_team": 2,
+    "goals_guest_team": 9,
+    "status": "PB",
+    "data": "2024-02-24T18:00:00Z"
+  }
+},
+{
+  "model": "gradus_team.game",
+  "pk": 2,
+  "fields": {
+    "home_team": 3,
+    "goals_home_team": 8,
+    "guest_team": 1,
+    "goals_guest_team": 4,
+    "status": "PB",
+    "data": "2024-02-17T19:00:00Z"
+  }
+},
+{
+  "model": "gradus_team.player",
+  "pk": 1,
+  "fields": {
+    "first_name": "Михаил",
+    "last_name": "Ревзин",
+    "middle_name": "Юрьевич",
+    "slug": "revzin",
+    "description": "Бессменный лидер Градуса, капитан, любимчик публики. Голкипер-защитник, забивающий чуть ли не больше всех. Был на столько хорош, что в 2022 году попробовал свои силы в зарубежном чемпионате и, выиграв там все что смог, вернулся на родину. Правда после этого сильно сбавил...",
+    "height": 175,
+    "weight": 75,
+    "team": 1,
+    "age": 35,
+    "date_birth": "1988-12-27",
+    "role": "D",
+    "publish": "2024-03-05T11:00:58Z",
+    "created": "2024-03-05T11:18:52.645Z",
+    "updated": "2024-03-08T13:54:23.013Z",
+    "avatar": "avatar/Revzin.jpg",
+    "status": "PB",
+    "author": 1
+  }
+},
+{
+  "model": "gradus_team.player",
+  "pk": 2,
+  "fields": {
+    "first_name": "Дмитрий",
+    "last_name": "Новожилов",
+    "middle_name": "Михайлович",
+    "slug": "novozhilov",
+    "description": "Супер игрок, вся команда держится на нем.",
+    "height": 180,
+    "weight": 83,
+    "team": 1,
+    "age": 33,
+    "date_birth": "1990-06-01",
+    "role": "F",
+    "publish": "2024-03-05T11:52:00Z",
+    "created": "2024-03-05T11:52:01.847Z",
+    "updated": "2024-03-05T12:26:58.992Z",
+    "avatar": "avatar/Novozhilov2.jpg",
+    "status": "PB",
+    "author": 1
+  }
+},
+{
+  "model": "gradus_team.player",
+  "pk": 4,
+  "fields": {
+    "first_name": "Роман",
+    "last_name": "Движков",
+    "middle_name": "",
+    "slug": "dvizhkov",
+    "description": "Самый техничный игрок Градуса.",
+    "height": 170,
+    "weight": 65,
+    "team": 1,
+    "age": null,
+    "date_birth": null,
+    "role": "F",
+    "publish": "2024-03-05T14:53:10Z",
+    "created": "2024-03-05T14:53:13.460Z",
+    "updated": "2024-03-05T14:54:01.106Z",
+    "avatar": "avatar/Roma.jpg",
+    "status": "PB",
+    "author": 1
+  }
+},
+{
+  "model": "gradus_team.player",
+  "pk": 5,
+  "fields": {
+    "first_name": "Алексей",
+    "last_name": "Мамонов",
+    "middle_name": "",
+    "slug": "mamonov",
+    "description": "Самый выносливый игрок Градуса.",
+    "height": null,
+    "weight": null,
+    "team": 1,
+    "age": null,
+    "date_birth": null,
+    "role": "F",
+    "publish": "2024-03-05T14:54:02Z",
+    "created": "2024-03-05T14:56:29.145Z",
+    "updated": "2024-03-05T14:56:29.145Z",
+    "avatar": "avatar/Mamonov.jpg",
+    "status": "PB",
+    "author": 1
+  }
+},
+{
+  "model": "gradus_team.player",
+  "pk": 6,
+  "fields": {
+    "first_name": "Василий",
+    "last_name": "Михайлов",
+    "middle_name": "",
+    "slug": "mihajlov",
+    "description": "Машина Градуса, без которой далеко не уедешь...",
+    "height": null,
+    "weight": null,
+    "team": 1,
+    "age": 37,
+    "date_birth": "1986-06-28",
+    "role": "F",
+    "publish": "2024-03-05T14:56:29Z",
+    "created": "2024-03-05T14:58:10.057Z",
+    "updated": "2024-03-05T14:58:14.498Z",
+    "avatar": "avatar/mihailov.jpg",
+    "status": "PB",
+    "author": 1
+  }
+},
+{
+  "model": "gradus_team.player",
+  "pk": 7,
+  "fields": {
+    "first_name": "Антон",
+    "last_name": "Третьяков",
+    "middle_name": "",
+    "slug": "tretyakov",
+    "description": "Креатив Градуса. Лучший по забитым голам и ассистам !!!",
+    "height": null,
+    "weight": null,
+    "team": 1,
+    "age": null,
+    "date_birth": null,
+    "role": "F",
+    "publish": "2024-03-05T14:58:33Z",
+    "created": "2024-03-05T14:59:52.742Z",
+    "updated": "2024-03-05T17:49:46.609Z",
+    "avatar": "avatar/tretiakov.jpg",
+    "status": "PB",
+    "author": 1
+  }
+},
+{
+  "model": "gradus_team.player",
+  "pk": 8,
+  "fields": {
+    "first_name": "В",
+    "last_name": "Алиев",
+    "middle_name": "",
+    "slug": "aliev-v",
+    "description": "Бот",
+    "height": null,
+    "weight": null,
+    "team": 2,
+    "age": null,
+    "date_birth": null,
+    "role": null,
+    "publish": "2024-03-05T15:03:40Z",
+    "created": "2024-03-05T15:04:20.389Z",
+    "updated": "2024-03-05T15:07:09.388Z",
+    "avatar": "",
+    "status": "PB",
+    "author": 1
+  }
+},
+{
+  "model": "gradus_team.player",
+  "pk": 9,
+  "fields": {
+    "first_name": "М",
+    "last_name": "Алиев",
+    "middle_name": "",
+    "slug": "aliev-m",
+    "description": "Бот",
+    "height": null,
+    "weight": null,
+    "team": 2,
+    "age": null,
+    "date_birth": null,
+    "role": null,
+    "publish": "2024-03-05T15:04:20Z",
+    "created": "2024-03-05T15:05:41.985Z",
+    "updated": "2024-03-05T15:07:09.387Z",
+    "avatar": "",
+    "status": "PB",
+    "author": 1
+  }
+},
+{
+  "model": "gradus_team.player",
+  "pk": 10,
+  "fields": {
+    "first_name": "Х",
+    "last_name": "Алиев",
+    "middle_name": "",
+    "slug": "aliev-x",
+    "description": "Бот",
+    "height": null,
+    "weight": null,
+    "team": 2,
+    "age": null,
+    "date_birth": null,
+    "role": null,
+    "publish": "2024-03-05T15:06:37Z",
+    "created": "2024-03-05T15:07:01.522Z",
+    "updated": "2024-03-05T15:08:04.057Z",
+    "avatar": "",
+    "status": "PB",
+    "author": 1
+  }
+},
+{
+  "model": "gradus_team.player",
+  "pk": 11,
+  "fields": {
+    "first_name": "А",
+    "last_name": "Аметов",
+    "middle_name": "",
+    "slug": "ametov",
+    "description": "Бот",
+    "height": null,
+    "weight": null,
+    "team": 2,
+    "age": null,
+    "date_birth": null,
+    "role": null,
+    "publish": "2024-03-05T15:07:11Z",
+    "created": "2024-03-05T15:07:38.060Z",
+    "updated": "2024-03-05T15:07:38.060Z",
+    "avatar": "",
+    "status": "PB",
+    "author": 1
+  }
+},
+{
+  "model": "gradus_team.player",
+  "pk": 12,
+  "fields": {
+    "first_name": "М",
+    "last_name": "Бакалец",
+    "middle_name": "",
+    "slug": "bakalec",
+    "description": "",
+    "height": null,
+    "weight": null,
+    "team": 2,
+    "age": null,
+    "date_birth": null,
+    "role": null,
+    "publish": "2024-03-05T15:08:43Z",
+    "created": "2024-03-05T15:09:02.905Z",
+    "updated": "2024-03-05T15:09:02.905Z",
+    "avatar": "",
+    "status": "PB",
+    "author": 1
+  }
+},
+{
+  "model": "gradus_team.player",
+  "pk": 13,
+  "fields": {
+    "first_name": "Сергей",
+    "last_name": "Быстров",
+    "middle_name": "",
+    "slug": "bystrov",
+    "description": "Старожил Градуса. Мастер игры 8х8.",
+    "height": null,
+    "weight": null,
+    "team": 1,
+    "age": 35,
+    "date_birth": "1989-01-08",
+    "role": "F",
+    "publish": "2024-03-08T12:25:06Z",
+    "created": "2024-03-08T12:28:23.565Z",
+    "updated": "2024-03-08T12:35:23.501Z",
+    "avatar": "avatar/bystrov.jpg",
+    "status": "PB",
+    "author": 1
+  }
+},
+{
+  "model": "gradus_team.player",
+  "pk": 14,
+  "fields": {
+    "first_name": "Артем",
+    "last_name": "Лошкарев",
+    "middle_name": "",
+    "slug": "loshkarev-artem",
+    "description": "Самый перспективный игрок Градуса, прибавляет с каждым матчем. Страшно представить что будет через год.",
+    "height": null,
+    "weight": null,
+    "team": 1,
+    "age": 29,
+    "date_birth": "1995-01-28",
+    "role": "F",
+    "publish": "2024-03-08T12:37:27Z",
+    "created": "2024-03-08T12:42:45.118Z",
+    "updated": "2024-03-08T12:43:12.579Z",
+    "avatar": "avatar/loshkarev.jpg",
+    "status": "PB",
+    "author": 1
+  }
+},
+{
+  "model": "gradus_team.player",
+  "pk": 15,
+  "fields": {
+    "first_name": "Владимир",
+    "last_name": "Пономарев",
+    "middle_name": "",
+    "slug": "ponomarev-vladimir",
+    "description": "Голкипер. Обладает самым пушечным ударов в Градусе.",
+    "height": null,
+    "weight": null,
+    "team": 1,
+    "age": null,
+    "date_birth": null,
+    "role": null,
+    "publish": "2024-03-08T12:43:44Z",
+    "created": "2024-03-08T12:49:25.823Z",
+    "updated": "2024-03-08T12:49:25.823Z",
+    "avatar": "avatar/ponomarev.jpg",
+    "status": "PB",
+    "author": 1
+  }
+},
+{
+  "model": "gradus_team.player",
+  "pk": 16,
+  "fields": {
+    "first_name": "Константин",
+    "last_name": "Андреев",
+    "middle_name": "",
+    "slug": "andreev-konstantin",
+    "description": "",
+    "height": null,
+    "weight": null,
+    "team": 3,
+    "age": null,
+    "date_birth": null,
+    "role": null,
+    "publish": "2024-03-08T12:49:57Z",
+    "created": "2024-03-08T12:50:28.019Z",
+    "updated": "2024-03-08T12:50:28.019Z",
+    "avatar": "",
+    "status": "PB",
+    "author": 1
+  }
+},
+{
+  "model": "gradus_team.player",
+  "pk": 17,
+  "fields": {
+    "first_name": "Андрей",
+    "last_name": "Герасимов",
+    "middle_name": "",
+    "slug": "gerasimov-andrej",
+    "description": "",
+    "height": null,
+    "weight": null,
+    "team": 3,
+    "age": null,
+    "date_birth": null,
+    "role": null,
+    "publish": "2024-03-08T12:50:28Z",
+    "created": "2024-03-08T12:51:00.274Z",
+    "updated": "2024-03-08T12:51:00.274Z",
+    "avatar": "",
+    "status": "PB",
+    "author": 1
+  }
+},
+{
+  "model": "gradus_team.player",
+  "pk": 18,
+  "fields": {
+    "first_name": "Роман",
+    "last_name": "Зеленков",
+    "middle_name": "",
+    "slug": "zelenkov-roman",
+    "description": "",
+    "height": null,
+    "weight": null,
+    "team": 3,
+    "age": null,
+    "date_birth": null,
+    "role": null,
+    "publish": "2024-03-08T12:51:00Z",
+    "created": "2024-03-08T12:51:27.232Z",
+    "updated": "2024-03-08T12:54:08.101Z",
+    "avatar": "",
+    "status": "PB",
+    "author": 1
+  }
+},
+{
+  "model": "gradus_team.player",
+  "pk": 19,
+  "fields": {
+    "first_name": "Антон",
+    "last_name": "Осипов",
+    "middle_name": "",
+    "slug": "osipov-anton",
+    "description": "",
+    "height": null,
+    "weight": null,
+    "team": 3,
+    "age": null,
+    "date_birth": null,
+    "role": null,
+    "publish": "2024-03-08T12:51:27Z",
+    "created": "2024-03-08T12:51:56.995Z",
+    "updated": "2024-03-08T12:51:56.995Z",
+    "avatar": "",
+    "status": "PB",
+    "author": 1
+  }
+},
+{
+  "model": "gradus_team.player",
+  "pk": 20,
+  "fields": {
+    "first_name": "Максим",
+    "last_name": "Русаков",
+    "middle_name": "",
+    "slug": "rusakov-maksim",
+    "description": "",
+    "height": null,
+    "weight": null,
+    "team": 3,
+    "age": null,
+    "date_birth": null,
+    "role": null,
+    "publish": "2024-03-08T12:51:57Z",
+    "created": "2024-03-08T12:52:21.346Z",
+    "updated": "2024-03-08T12:52:21.346Z",
+    "avatar": "",
+    "status": "PB",
+    "author": 1
+  }
+},
+{
+  "model": "gradus_team.player",
+  "pk": 21,
+  "fields": {
+    "first_name": "Антон",
+    "last_name": "Салов",
+    "middle_name": "",
+    "slug": "salov-anton",
+    "description": "",
+    "height": null,
+    "weight": null,
+    "team": 3,
+    "age": null,
+    "date_birth": null,
+    "role": null,
+    "publish": "2024-03-08T12:52:21Z",
+    "created": "2024-03-08T12:52:44.924Z",
+    "updated": "2024-03-08T12:52:44.924Z",
+    "avatar": "",
+    "status": "PB",
+    "author": 1
+  }
+},
+{
+  "model": "gradus_team.player",
+  "pk": 22,
+  "fields": {
+    "first_name": "Андрей",
+    "last_name": "Шалыгин",
+    "middle_name": "",
+    "slug": "shalygin-andrej",
+    "description": "",
+    "height": null,
+    "weight": null,
+    "team": 3,
+    "age": null,
+    "date_birth": null,
+    "role": null,
+    "publish": "2024-03-08T12:52:45Z",
+    "created": "2024-03-08T12:53:16.106Z",
+    "updated": "2024-03-08T12:53:16.106Z",
+    "avatar": "",
+    "status": "PB",
+    "author": 1
+  }
+},
+{
+  "model": "gradus_team.team",
+  "pk": 1,
+  "fields": {
+    "name": "Градус",
+    "slug_team": "gradus",
+    "logo": "team_logo/2024/03/gradus.jpg",
+    "status": "PB"
+  }
+},
+{
+  "model": "gradus_team.team",
+  "pk": 2,
+  "fields": {
+    "name": "Карабах",
+    "slug_team": "karabah",
+    "logo": "team_logo/2024/03/Карабах.jpg",
+    "status": "PB"
+  }
+},
+{
+  "model": "gradus_team.team",
+  "pk": 3,
+  "fields": {
+    "name": "Спайс Бойз",
+    "slug_team": "spajs-bojz",
+    "logo": "team_logo/2024/03/spice_boys.jpg",
+    "status": "PB"
+  }
+},
+{
+  "model": "gradus_team.goalassist",
+  "pk": 1,
+  "fields": {
+    "player_goal": 7,
+    "player_assist": 5,
+    "team_goal": 1,
+    "game_goal": 1,
+    "time_goal": 12,
+    "own_goal": false
+  }
+},
+{
+  "model": "gradus_team.goalassist",
+  "pk": 2,
+  "fields": {
+    "player_goal": 6,
+    "player_assist": 5,
+    "team_goal": 1,
+    "game_goal": 1,
+    "time_goal": 14,
+    "own_goal": false
+  }
+},
+{
+  "model": "gradus_team.goalassist",
+  "pk": 3,
+  "fields": {
+    "player_goal": 4,
+    "player_assist": 7,
+    "team_goal": 1,
+    "game_goal": 1,
+    "time_goal": 20,
+    "own_goal": false
+  }
+},
+{
+  "model": "gradus_team.goalassist",
+  "pk": 4,
+  "fields": {
+    "player_goal": 1,
+    "player_assist": 2,
+    "team_goal": 1,
+    "game_goal": 1,
+    "time_goal": 23,
+    "own_goal": false
+  }
+},
+{
+  "model": "gradus_team.goalassist",
+  "pk": 5,
+  "fields": {
+    "player_goal": 4,
+    "player_assist": 2,
+    "team_goal": 1,
+    "game_goal": 1,
+    "time_goal": 31,
+    "own_goal": false
+  }
+},
+{
+  "model": "gradus_team.goalassist",
+  "pk": 6,
+  "fields": {
+    "player_goal": 1,
+    "player_assist": 5,
+    "team_goal": 1,
+    "game_goal": 1,
+    "time_goal": 37,
+    "own_goal": false
+  }
+},
+{
+  "model": "gradus_team.goalassist",
+  "pk": 7,
+  "fields": {
+    "player_goal": 6,
+    "player_assist": null,
+    "team_goal": 1,
+    "game_goal": 1,
+    "time_goal": 38,
+    "own_goal": false
+  }
+},
+{
+  "model": "gradus_team.goalassist",
+  "pk": 8,
+  "fields": {
+    "player_goal": 6,
+    "player_assist": null,
+    "team_goal": 1,
+    "game_goal": 1,
+    "time_goal": 39,
+    "own_goal": false
+  }
+},
+{
+  "model": "gradus_team.goalassist",
+  "pk": 9,
+  "fields": {
+    "player_goal": 7,
+    "player_assist": 4,
+    "team_goal": 1,
+    "game_goal": 1,
+    "time_goal": 40,
+    "own_goal": false
+  }
+},
+{
+  "model": "gradus_team.goalassist",
+  "pk": 10,
+  "fields": {
+    "player_goal": 5,
+    "player_assist": 7,
+    "team_goal": 1,
+    "game_goal": 1,
+    "time_goal": 43,
+    "own_goal": false
+  }
+},
+{
+  "model": "gradus_team.goalassist",
+  "pk": 11,
+  "fields": {
+    "player_goal": 6,
+    "player_assist": 2,
+    "team_goal": 1,
+    "game_goal": 1,
+    "time_goal": 47,
+    "own_goal": false
+  }
+},
+{
+  "model": "gradus_team.goalassist",
+  "pk": 12,
+  "fields": {
+    "player_goal": 9,
+    "player_assist": 11,
+    "team_goal": 2,
+    "game_goal": 1,
+    "time_goal": 3,
+    "own_goal": false
+  }
+},
+{
+  "model": "gradus_team.goalassist",
+  "pk": 13,
+  "fields": {
+    "player_goal": 9,
+    "player_assist": null,
+    "team_goal": 2,
+    "game_goal": 1,
+    "time_goal": 5,
+    "own_goal": false
+  }
+},
+{
+  "model": "gradus_team.goalassist",
+  "pk": 14,
+  "fields": {
+    "player_goal": 12,
+    "player_assist": null,
+    "team_goal": 2,
+    "game_goal": 1,
+    "time_goal": 18,
+    "own_goal": false
+  }
+},
+{
+  "model": "gradus_team.goalassist",
+  "pk": 15,
+  "fields": {
+    "player_goal": 9,
+    "player_assist": null,
+    "team_goal": 2,
+    "game_goal": 1,
+    "time_goal": 19,
+    "own_goal": false
+  }
+},
+{
+  "model": "gradus_team.goalassist",
+  "pk": 16,
+  "fields": {
+    "player_goal": 10,
+    "player_assist": 12,
+    "team_goal": 2,
+    "game_goal": 1,
+    "time_goal": 27,
+    "own_goal": false
+  }
+},
+{
+  "model": "gradus_team.goalassist",
+  "pk": 17,
+  "fields": {
+    "player_goal": 9,
+    "player_assist": 12,
+    "team_goal": 2,
+    "game_goal": 1,
+    "time_goal": 29,
+    "own_goal": false
+  }
+},
+{
+  "model": "gradus_team.goalassist",
+  "pk": 18,
+  "fields": {
+    "player_goal": 9,
+    "player_assist": 10,
+    "team_goal": 2,
+    "game_goal": 1,
+    "time_goal": 42,
+    "own_goal": false
+  }
+},
+{
+  "model": "gradus_team.goalassist",
+  "pk": 19,
+  "fields": {
+    "player_goal": 11,
+    "player_assist": 9,
+    "team_goal": 2,
+    "game_goal": 1,
+    "time_goal": 45,
+    "own_goal": false
+  }
+},
+{
+  "model": "gradus_team.goalassist",
+  "pk": 20,
+  "fields": {
+    "player_goal": 9,
+    "player_assist": 11,
+    "team_goal": 2,
+    "game_goal": 1,
+    "time_goal": 46,
+    "own_goal": false
+  }
+},
+{
+  "model": "gradus_team.goalassist",
+  "pk": 21,
+  "fields": {
+    "player_goal": 16,
+    "player_assist": null,
+    "team_goal": 3,
+    "game_goal": 2,
+    "time_goal": 3,
+    "own_goal": false
+  }
+},
+{
+  "model": "gradus_team.goalassist",
+  "pk": 22,
+  "fields": {
+    "player_goal": 17,
+    "player_assist": null,
+    "team_goal": 3,
+    "game_goal": 2,
+    "time_goal": 19,
+    "own_goal": false
+  }
+},
+{
+  "model": "gradus_team.goalassist",
+  "pk": 23,
+  "fields": {
+    "player_goal": 22,
+    "player_assist": null,
+    "team_goal": 3,
+    "game_goal": 2,
+    "time_goal": 20,
+    "own_goal": false
+  }
+},
+{
+  "model": "gradus_team.goalassist",
+  "pk": 24,
+  "fields": {
+    "player_goal": 22,
+    "player_assist": 20,
+    "team_goal": 3,
+    "game_goal": 2,
+    "time_goal": 27,
+    "own_goal": false
+  }
+},
+{
+  "model": "gradus_team.goalassist",
+  "pk": 25,
+  "fields": {
+    "player_goal": 19,
+    "player_assist": 22,
+    "team_goal": 3,
+    "game_goal": 2,
+    "time_goal": 28,
+    "own_goal": false
+  }
+},
+{
+  "model": "gradus_team.goalassist",
+  "pk": 26,
+  "fields": {
+    "player_goal": 20,
+    "player_assist": null,
+    "team_goal": 3,
+    "game_goal": 2,
+    "time_goal": 45,
+    "own_goal": false
+  }
+},
+{
+  "model": "gradus_team.goalassist",
+  "pk": 27,
+  "fields": {
+    "player_goal": 16,
+    "player_assist": 17,
+    "team_goal": 3,
+    "game_goal": 2,
+    "time_goal": 48,
+    "own_goal": false
+  }
+},
+{
+  "model": "gradus_team.goalassist",
+  "pk": 28,
+  "fields": {
+    "player_goal": 22,
+    "player_assist": 17,
+    "team_goal": 3,
+    "game_goal": 2,
+    "time_goal": 50,
+    "own_goal": false
+  }
+},
+{
+  "model": "gradus_team.goalassist",
+  "pk": 29,
+  "fields": {
+    "player_goal": 14,
+    "player_assist": 5,
+    "team_goal": 1,
+    "game_goal": 2,
+    "time_goal": 30,
+    "own_goal": false
+  }
+},
+{
+  "model": "gradus_team.goalassist",
+  "pk": 30,
+  "fields": {
+    "player_goal": 4,
+    "player_assist": 1,
+    "team_goal": 1,
+    "game_goal": 2,
+    "time_goal": 39,
+    "own_goal": false
+  }
+},
+{
+  "model": "gradus_team.goalassist",
+  "pk": 31,
+  "fields": {
+    "player_goal": 5,
+    "player_assist": 7,
+    "team_goal": 1,
+    "game_goal": 2,
+    "time_goal": 46,
+    "own_goal": false
+  }
+},
+{
+  "model": "gradus_team.goalassist",
+  "pk": 32,
+  "fields": {
+    "player_goal": 19,
+    "player_assist": null,
+    "team_goal": 3,
+    "game_goal": 2,
+    "time_goal": 42,
+    "own_goal": true
+  }
+},
+{
+  "model": "gradus_team.teamcomposition",
+  "pk": 1,
+  "fields": {
+    "game": 1,
+    "team": 1,
+    "composition": [
+      7,
+      6,
+      5,
+      4,
+      2,
+      1
+    ]
+  }
+},
+{
+  "model": "gradus_team.teamcomposition",
+  "pk": 2,
+  "fields": {
+    "game": 1,
+    "team": 2,
+    "composition": [
+      12,
+      11,
+      10,
+      9,
+      8
+    ]
+  }
+},
+{
+  "model": "gradus_team.teamcomposition",
+  "pk": 3,
+  "fields": {
+    "game": 2,
+    "team": 1,
+    "composition": [
+      15,
+      14,
+      13,
+      7,
+      5,
+      4,
+      2,
+      1
+    ]
+  }
+},
+{
+  "model": "gradus_team.teamcomposition",
+  "pk": 4,
+  "fields": {
+    "game": 2,
+    "team": 3,
+    "composition": [
+      22,
+      21,
+      20,
+      19,
+      18,
+      17,
+      16
+    ]
+  }
+},
+{
+  "model": "gradus_team.yellowcard",
+  "pk": 1,
+  "fields": {
+    "player": 13,
+    "game": 2,
+    "team": 1,
+    "time_yellow_card": 19
+  }
+},
+{
+  "model": "gradus_team.yellowcard",
+  "pk": 2,
+  "fields": {
+    "player": 5,
+    "game": 2,
+    "team": 1,
+    "time_yellow_card": 49
+  }
+}
+]
